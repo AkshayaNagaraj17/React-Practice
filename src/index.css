@@ -9,3 +9,12 @@
     display:inline-block;
 
 }
+.btn{
+    background-color:Blue;
+    color:white;
+    padding:5px;
+    margin:5px;
+    cursor:pointer;
+    border:none;
+
+}
