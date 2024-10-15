@@ -16,8 +16,8 @@ function Student(props){
     )
 }
 Student.propTypes = {
-    name: PropTypes.string.isRequired,
-    age: PropTypes.number.isRequired,
-    isStudent:PropTypes.bool.isRequired,
+    name: PropTypes.string,
+    age: PropTypes.number,
+    isStudent:PropTypes.bool,
   };
 export default Student
