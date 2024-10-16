@@ -1,6 +1,6 @@
  function List()
  {
-    const fruits=["apple","orange","pineapple","lemon"]
-    return(fruits)
+    const li=["apple","orange","pineapple","lemon"]
+    return(li)
 }
  export default List
