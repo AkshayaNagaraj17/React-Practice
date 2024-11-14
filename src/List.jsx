@@ -13,7 +13,9 @@ function list(){
     //filter
     const lowveg=fruits.filter(f=> f.veg<30)
 
-    const li=lowveg.map(f1=> <li key={f1.id}>{f1.name}:&nbsp;{f1.veg}</li>)
+    const li=lowveg.map(f1=> <li key={f1.id}>
+        {f1.name}:&nbsp;{f1.veg}
+        </li>)
 
     
     return(

@@ -3,7 +3,7 @@ import Card from "./Card.jsx"
 import Button from "./Button.jsx"
 import Greeting from"./Greeting.jsx"
 import List from"./List"
-import Onclick from "Onclick.jsx"
+
 function App()
 {
   return(<>
@@ -18,7 +18,7 @@ function App()
 
     {/* Buttons in react */}
     <Button></Button>
-    <Onclick></Onclick>
+ 
     
     {/*Props*/}
     <Student name="Aksh" age={19} isStudent={true}/>
