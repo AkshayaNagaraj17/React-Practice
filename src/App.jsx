@@ -3,7 +3,7 @@ import Card from "./Card.jsx"
 import Button from "./Button.jsx"
 import Greeting from"./Greeting.jsx"
 import List from"./List"
-
+import Component from"./Component.jsx"
 function App()
 {
   return(<>
@@ -26,7 +26,7 @@ function App()
     {/* Conditional renedering */}
     <Greeting isLogged={true} user="Akshaya" ></Greeting>
     <List></List>
-
+    <Component></Component>
   </>
     
    )

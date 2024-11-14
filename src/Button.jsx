@@ -1,5 +1,6 @@
 function Button()
 {
+    // eventhandling
     const handle=(e)=>{e.target.textContent="ohhh"}
     return(
         <button className="btn" onClick={handle}>
@@ -7,4 +8,4 @@ function Button()
         </button>
     )
 }
-export default Button
+export default Button   

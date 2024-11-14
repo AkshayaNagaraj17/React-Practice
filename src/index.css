@@ -32,3 +32,23 @@
 .login1{
     color:red
 }
+.container{
+    border: 2px solid black;
+   border-radius: 5px;
+   text-align: center;
+   background-color: bisque;
+}
+.i,.c1{
+    background-color: aqua;
+    margin-left: 10px;
+}
+.d{
+    background-color: beige;
+    margin-left: 10px;
+}
+
+.r{
+    margin-left: 10px;
+    background-color: black;
+    color: aliceblue;
+}
