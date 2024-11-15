@@ -4,6 +4,7 @@ import Button from "./Button.jsx"
 import Greeting from"./Greeting.jsx"
 import List from"./List"
 import Component from"./Component.jsx"
+import Compo from "./Compo.jsx"
 function App()
 {
   return(<>
@@ -18,7 +19,6 @@ function App()
 
     {/* Buttons in react */}
     <Button></Button>
- 
     
     {/*Props*/}
     <Student name="Aksh" age={19} isStudent={true}/>
@@ -27,6 +27,7 @@ function App()
     <Greeting isLogged={true} user="Akshaya" ></Greeting>
     <List></List>
     <Component></Component>
+    <Compo></Compo>
   </>
     
    )

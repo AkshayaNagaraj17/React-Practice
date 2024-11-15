@@ -11,6 +11,9 @@ function Component(){
     return(
         <div className="container">
              <h1>Name:{name}</h1>
+             
+                {/* COUNTER */}
+
              <button className="c1" onClick={uname}>Change name</button>
              <h1>Age:{age}</h1>
              <button className="i" onClick={iage}>Increment age</button>
