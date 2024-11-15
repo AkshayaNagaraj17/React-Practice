@@ -6,6 +6,7 @@ import List from"./List"
 import Component from"./Component.jsx"
 import Compo from "./Compo.jsx"
 import ColorPick from "./ColorPick"
+import ToDo from "./ToDo.jsx"
 function App()
 {
   return(<>
@@ -30,6 +31,7 @@ function App()
     <Component></Component>
     <Compo></Compo>
     <ColorPick></ColorPick>
+    <ToDo></ToDo>
   </>
     
    )
