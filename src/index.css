@@ -52,3 +52,15 @@
     background-color: black;
     color: aliceblue;
 }
+.colordisp{
+    width:100px;
+    height:100px;
+    text-align: center;
+   display :flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid black;
+   border-radius: 25px;
+   transition: 2s;
+   margin-left: 320px;
+}

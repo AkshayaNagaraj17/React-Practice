@@ -5,6 +5,7 @@ import Greeting from"./Greeting.jsx"
 import List from"./List"
 import Component from"./Component.jsx"
 import Compo from "./Compo.jsx"
+import ColorPick from "./ColorPick"
 function App()
 {
   return(<>
@@ -28,6 +29,7 @@ function App()
     <List></List>
     <Component></Component>
     <Compo></Compo>
+    <ColorPick></ColorPick>
   </>
     
    )

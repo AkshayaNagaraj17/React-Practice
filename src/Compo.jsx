@@ -8,6 +8,11 @@ function Compo()
     const handleQ=(e)=>setQuant(e.target.value)
     const [payment,setPayment]=useState("")
     const handlep=(e)=>setPayment(e.target.value)
+    const [ship,setShip]=useState("delivery")
+    function handler(e)
+    {
+        setShip(e.target.value)
+    }
     return(
         <div>
             <input type="text" onChange={handle} />
@@ -21,6 +26,16 @@ function Compo()
                 <option value="Debit card">Debit caed</option>
             </select>
             <p>Payment type : {payment}</p>
+            <label >
+                <input type="radio" value="pick-up" checked={ship==="Pick-up"} onChange={handler}/>
+                pickup
+                <br></br>
+                <input type="radio" value="delivery" checked={ship==="delivery"} onChange={handler}/>
+                delivery
+
+
+            </label>
+            <p> Shipping:{ship}</p>
         </div>
     )
 }
