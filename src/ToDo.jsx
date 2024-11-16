@@ -1,7 +1,7 @@
+            //   TO-DO 
 import { useState } from "react";
 function ToDo()
-{
-
+{     
     const[todo,setTodo]=useState(["First task","Second task"])
     const[newtask,setTask]=useState()
     const addTask=()=>{setTodo([...todo,newtask])

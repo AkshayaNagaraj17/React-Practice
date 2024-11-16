@@ -27,20 +27,25 @@ function MultiObj()
         setGender("")
         setName("")
     }
+    function remove(index)
+    {
+        setDetails(details.filter((_,i)=> i!==index))
+    }
     return(
         <div>
             <h1>Details</h1>
             <ul>
-                {details.map((de,index)=><li key={index}>
+                {details.map((de,index)=><li key={index} onClick={()=>remove(index)}>
                     {de.name}{de.age}{de.gender}
                 </li>)}
             </ul>
-            <input type="text" value={name} onChange={handLen} />
+            <input type="text" placeholder="Enter Name" value={name} onChange={handLen} />
             <br></br>
-            <input type="text" value={age}onChange={handLea} />
+            <input type="text" placeholder="Enter age" value={age}onChange={handLea} />
             
             <br></br>
-            <input type="text" value={gender} onChange={handLeg} />
+            <input type="text" placeholder="Enter gender" value={gender} onChange={handLeg} />
+            <br></br>
             <button onClick={add}>Add</button>
         </div>
     )

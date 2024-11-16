@@ -6,8 +6,9 @@ import List from"./List"
 import Component from"./Component.jsx"
 import Compo from "./Compo.jsx"
 import ColorPick from "./ColorPick"
-import ToDo from "./todo.jsx"
+import ToDo from "./todo.jsx" 
 import MultiObj from "./multiObj.jsx"
+import TodoList from "./TodoList.jsx"
 function App()
 {
   return(<>
@@ -34,6 +35,7 @@ function App()
     <ColorPick></ColorPick>
     <ToDo></ToDo>
     <MultiObj></MultiObj>
+    <TodoList></TodoList>
   </>
     
    )
