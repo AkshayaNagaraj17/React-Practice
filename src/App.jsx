@@ -9,6 +9,8 @@ import ColorPick from "./ColorPick"
 import ToDo from "./todo.jsx" 
 import MultiObj from "./multiObj.jsx"
 import TodoList from "./TodoList.jsx"
+import ReSize from "./ReSize.jsx"
+import DigitalClock from "./DigitalClock.jsx"
 function App()
 {
   return(<>
@@ -36,6 +38,9 @@ function App()
     <ToDo></ToDo>
     <MultiObj></MultiObj>
     <TodoList></TodoList>
+    <ReSize></ReSize>
+    <DigitalClock></DigitalClock>
+    
   </>
     
    )

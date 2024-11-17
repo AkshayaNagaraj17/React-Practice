@@ -118,3 +118,22 @@ li{
    
     border-bottom: 1px solid gray;
 }
+.clock-con{
+    background-image: url(C:\Users\ASUS\react-practice\src\assets\planet.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.clock{
+    font-size: 100%;
+    color:black;
+    font-weight: bold;
+}
+span{
+    font-size: larger;
+}
