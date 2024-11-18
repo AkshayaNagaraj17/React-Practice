@@ -11,6 +11,7 @@ import MultiObj from "./multiObj.jsx"
 import TodoList from "./TodoList.jsx"
 import ReSize from "./ReSize.jsx"
 import DigitalClock from "./DigitalClock.jsx"
+import AppA from "./ContextA.jsx"
 function App()
 {
   return(<>
@@ -40,6 +41,7 @@ function App()
     <TodoList></TodoList>
     <ReSize></ReSize>
     <DigitalClock></DigitalClock>
+    <AppA></AppA>
     
   </>
     
